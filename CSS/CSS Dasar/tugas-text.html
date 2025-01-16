@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Artikel dengan Text Decoration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-decoration: overline;
+        }
+
+        p.important {
+            text-decoration: line-through;
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            text-decoration: underline dotted orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Judul Artikel</h1>
+    <h2>Subjudul Artikel</h2>
+    <p>
+        Ini adalah paragraf pembuka artikel. Kami akan menjelaskan bagaimana 
+        <span class="highlight">penggunaan text-decoration</span> dapat meningkatkan estetika teks.
+    </p>
+    <p class="important">Ini adalah catatan penting yang telah kadaluwarsa.</p>
+    <p>
+        Untuk informasi lebih lanjut, silakan <a href="#">klik tautan ini</a> untuk membaca lebih banyak.
+    </p>
+</body>
+</html>

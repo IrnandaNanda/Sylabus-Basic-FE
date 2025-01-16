@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatihanForm</title>
+</head>
+<body>
+    <h1>Registrasi Data</h1>
+
+    <form action="">
+        <h3>Biodata</h3>
+
+        <label for="Nama">Nama Panjang : </label><input type="text" name="Biodata" ><br>
+        <label for="Angka">Nomer telepon : </label><input type="number" name="Biodata" ><br>
+        <label for="TTL">Tempat Tanggal Lahir : </label><input type="datetime-local" name="Biodata" ><br>
+        <label for="JenisKelamin">JenisKelamin : </label>
+        <input type="radio" name="Biodata"><label for="ya">Laki-Laki</label>
+        <input type="radio" name="Biodata"><label for="tidak">Perempuan</label>
+
+
+        <h3>User Account</h3>
+
+        <label for="AccountName">Username : </label><input type="text" name="UserAccount"><br>
+        <label for="Email">Email : </label><input type="email" name="UserAccount"><br>
+        <label for="Password">Password : </label><input type="password" name="UserAccount"><br>
+        <label for="RPassword">UlangiPassword : </label><input type="password" name="UserAccount"><br>
+
+
+        <h3>What You Have Learned ?</h3>
+
+        <input type="checkbox"><label for="HTML">HTML</label>
+        <input type="checkbox"><label for="JS">Javascript</label>
+        <input type="checkbox"><label for="CSS">CSS</label>
+
+
+        <h3>Daily Busyness</h3>
+
+        <select name="activity" id="">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Pekerja">Pekerja</option>
+            <option value="Pengganguran">Penggaguran</option>
+        </select>
+
+
+        <h3>Your CV Here</h3>
+
+        <input type="file"><br>
+        <br>
+
+        <input type="button" value="Submit" name="button">
+
+
+    </form>
+</body>
+</html>
