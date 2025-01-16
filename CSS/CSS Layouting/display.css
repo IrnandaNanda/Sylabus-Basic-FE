@@ -1,0 +1,44 @@
+*, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    background-color: skyblue;
+    border: 2px solid;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+/* Inline */
+span.inline {
+    display: inline;
+}
+
+/* block */
+span.Block {
+    display: block;
+}
+
+/* inline-block */
+span.inline-Block {
+    display: inline-block;
+}
+
+/* Display : flex */
+.flex-container {
+    background-color: aqua;
+    flex-wrap: wrap;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+.flex-item {
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}

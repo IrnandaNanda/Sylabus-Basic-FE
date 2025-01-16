@@ -1,0 +1,27 @@
+div {
+    background-color: skyblue;
+    text-align: center;
+    border: 2px solid;
+    width: 111px;
+    height: 30px;
+    margin: 5px;
+}
+
+/* Static */
+div .static-position {
+    /* position: static; */
+}
+
+/* Relative */
+.relative-position {
+    /* position: relative; */
+    left: 50px;
+}
+
+
+/* Absolute */
+.absolute-position {
+    /* position: absolute; */
+    left: 50px;
+    top: 100px;
+}
