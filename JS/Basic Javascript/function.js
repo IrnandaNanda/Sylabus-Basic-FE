@@ -24,6 +24,9 @@ function getTax(subTotal) {
   let hasilAkhir = getTax(50000);
   console.log(hasilAkhir)
 
+
+
+  
 // Function Tanpa Menggunakan Return
   function hitungDiskon(harga, diskon) {
     const hargaSetelahDiskon = harga - (harga * diskon / 100);
