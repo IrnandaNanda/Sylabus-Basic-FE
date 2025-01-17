@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional JS</title>
+</head>
+
+<body>
+    <h1>Selamat Belajar Javascript basic</h1>
+
+
+
+    <script>
+
+        do {
+            let nilai = parseInt(prompt("Masukkan Nilai:"));
+
+            if (isNaN(nilai) || nilai < 0 || nilai > 100) {
+                alert("Input yang Anda masukkan salah");
+            } else if (nilai <= 75) {
+                alert("Karena Nilai Anda: " + nilai + ", Anda Belum Lulus");
+            } else {
+                alert("Selamat Anda Lulus");
+            }
+        } while (confirm("Ulangi?"));
+
+    </script>
+</body>
+
+</html>
