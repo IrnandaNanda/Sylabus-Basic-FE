@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <h2>JavaScript HTML DOM</h2>
+    <p id="intro">Mendapatkan elemen HTML menggunakan Id</p>
+    <p id="coba">Berikut ini contoh demo dari method <b>getElementsById</b>.</p>
+    <p id="demo">Dan ini adalah teks yang ditambahkan di HTML</p>
+
+    <script>
+
+        const getValue = document.getElementById("demo");
+
+        getValue.innerHTML = "Ini adalah text yang dibuat menggunakan javascript : " + getValue.innerHTML;
+    </script>
+  </body>
+</html>
