@@ -16,6 +16,7 @@ let tinggiBadan = 169.5;
 let beratBadan;
 let pekerjaan = null;
 
+beratBadan = 45
 
 //Pengkondisian
 if (pekerjaan == null) {
@@ -32,3 +33,14 @@ const saldoAkhir = saldoAwal + saldoTambahan - hutang;
 
 alert(`Saldo awal saya adalah Rp${saldoAwal} dan saldo tambahan saya Rp${saldoTambahan} saya memiliki hutang sebesar Rp${hutang} jadi saldo yang akan saya miliki adalah sebesar Rp${saldoAkhir}`)
 alert(`Haloo nama saya adalah ${nama} dan tinggi badan saya ${tinggiBadan}cm serta memiliki berat badan ${beratBadan}kg dan pekerjaan saya ${pekerjaan}`);
+
+// For Loop
+for ( i = 0; i <= 5; i = i + 1 ) {
+    console.log(`perulangan Ke ${i}`)
+}
+
+// For loop of array
+let student = ["Yamal", "Budi", "Ari"]
+for ( i = 0; i < student.length; i++ ) {
+    console.table(student[i])
+}
