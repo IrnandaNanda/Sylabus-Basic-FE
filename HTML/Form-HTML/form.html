@@ -4,35 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form pada HTML</title>
+    <style>
+        form div {
+            margin: 5px;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Belajar form pada HTML</h1>
 
-    <form action="">
-        <label for="huruf">ini untuk huruf : </label><input type="text"><br>
-        <label for="number">ini untuk angka : </label><input type="number"><br>
-        <label for="tanggal">ini untuk format tanggal : </label><input type="datetime-local"><br>
-        <label for="radio">ini untuk radio button : </label>
-        <input type="radio" name="radio"><label for="">Ya</label>
-        <input type="radio" name="radio"><label for="">Tidak</label><br>
-        <label for="password">ini untuk password : </label><input type="password"><br>
+    <form action="" method="get">
+        <div>
+            <label for="text">Ini untuk text : </label>
+            <input type="text" name="text" id="text">
+        </div>
 
-        <label for="">Ini untuk checkbox</label>
-        <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label>
-        <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label>
-        <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label><br>
+        <div>
+            <label for="number">Ini untuk number : </label>
+            <input type="number" name="number" id="number">
+        </div>
 
-        <label for="">Ini untuk opsi</label>
-        <select name="select" id="">
-            <option value="1">opsi 1</option>
-            <option value="2">opsi 2</option>
-            <option value="3">opsi 3</option>
-        </select> <br>
+        <div>
+            <label for="password">Ini untuk password : </label>
+            <input type="password" name="password" id="password">
+        </div>
 
-        <label for="">Ini untuk upload file</label>
-        <input type="file">
+        <div>
+            <label for="tanggal">Ini untuk tanggal : </label>
+            <input type="datetime-local" name="tanggal" id="tanggal">
+        </div>
 
+        <div>
+            <label for="radio">ini untuk radio button : </label>
+            <input type="radio" name="radio"><label for="">Ya</label>
+            <input type="radio" name="radio"><label for="">Tidak</label><br>
+        </div>
 
+        <div>
+            <label for="">Ini untuk checkbox : </label>
+            <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label>
+            <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label>
+            <input type="checkbox" name="" id=""><label for="pilihan">Pilihan1</label><br>    
+        </div>
+
+        <div>
+            <label for="">Ini untuk opsi</label>
+            <select name="select" id="">
+                <option value="1">opsi 1</option>
+                <option value="2">opsi 2</option>
+                <option value="3">opsi 3</option>
+            </select> <br>
+        </div>
+
+        <div>
+            <label for="">Ini untuk upload file</label>
+            <input type="file"><br>
+        </div>
+
+        <button type="submit">Kirim</button>
     </form>
 </body>
 </html>
